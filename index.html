@@ -1,0 +1,51 @@
+<!DOCTYPE html />
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ------------- favicon ------------ -->
+    <link rel="shortcut icon" href="./images/user-interface-login-icon--12.png" type="image/x-icon">
+    <!-- ------------- links ------------- -->
+    <link rel="stylesheet" href="./css/style.css" type="text/css" />
+    <link rel="stylesheet" href="./css/changeStyle.css" type="text/css" />
+    <!-- ------------- Title ------------- -->
+    <title>Login</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-wrapper">
+            <!-- ------------- login form ---------------- -->
+            <form id="login-form" class="forms">
+                <button class="changeBtn sigUp">Sign Up</button>
+                <h2 class="title">login</h2>
+
+                <input type="text" class="" name="username" id="username" placeholder="username" autocomplete="off"
+                    required>
+                <input type="password" class="" name="password" id="password" placeholder="password" autocomplete="off"
+                    required>
+                <input type="submit">
+            </form>
+            <!-- -------------- signup --------------------- -->
+            <form id="signup" class="forms">
+                <button class="changeBtn login">Login</button>
+                <h2 class="title">signup</h2>
+
+                <input type="text" class="" name="username" id="sign-up_username" placeholder="username"
+                    autocomplete="off" maxlength="20" required>
+                <input type="email" class="" name="email" id="userEmail" placeholder="Email" autocomplete="off">
+                <input type="password" class="" name="password" id="sign-up_password" placeholder="password"
+                    autocomplete="off" maxlength="20" required>
+                <input type="password" class="" name="confrimPass" id="confrimPass" placeholder="confrimPassword"
+                    autocomplete="off" required>
+                <input type="submit">
+            </form>
+        </div>
+    </div>
+    <!-- ---------------SCRIPT----------------- -->
+    <script src="js/script.js" defer></script>
+</body>
+<!-- panda code -->
+
+</html>
